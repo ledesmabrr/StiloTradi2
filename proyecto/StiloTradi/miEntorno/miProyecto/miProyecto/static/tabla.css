@@ -1,0 +1,13 @@
+.table{
+    margin:auto;
+    width: 70vw;
+    text-align: center;
+    background-color: var(--color--whitw);
+    padding: var(--card-padding);
+    border-radius: var(--card-border-radius);
+    margin-top: 1rem;
+    box-shadow: var(--box-shadow);
+    justify-content: space-around;
+    gap: 1.4rem;
+    transition: all 0.3s ease;
+}

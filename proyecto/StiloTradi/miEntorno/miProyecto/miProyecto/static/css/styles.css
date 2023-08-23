@@ -1,0 +1,62 @@
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.content{
+    flex: 1;
+}
+
+nav{
+    background-color: #000000;
+    margin: 0rem;
+}
+
+
+header{
+    background-color: #383a34;
+    color: #ffffff;
+    margin: 0rem;
+    height: 3.125rem;
+}
+
+footer{
+    background-color: #383a34;
+    color: #ffffff;
+    position:fixed;
+    bottom: 0;
+    width: 100vw;
+}
+
+
+#contenido{
+    background-color:#F7D4DC ;
+    color: #263409;
+}
+
+#dropdown-btn{
+    color: #ffffff;
+}
+
+#search{
+    color: #ffffff;
+    border: .0625rem solid #ffffff;
+}
+
+#search:active{
+    color: #383a34;
+    background-color: #ffffff;
+}
+
+#tabla_reservas.table.table-striped{
+    background-color: var(#F7D4DC );
+}
+
+.table.table-striped tr td {
+    color: var(#263409);
+}
+
+.table.table-striped tr.destacado {
+    background-color: var(#F7D4DC);
+}
